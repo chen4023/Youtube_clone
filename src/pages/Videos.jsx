@@ -24,7 +24,7 @@ export default function Videos() {
   if (isLoading) return <div>Loading...</div>;
   if (error) return <NotFound />;
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center bg-[#18181A]">
       {videos.map((video, index) => (
         <Card key={index} video={video} />
       ))}
