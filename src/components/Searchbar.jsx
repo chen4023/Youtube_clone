@@ -1,18 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BsSearch } from "react-icons/bs";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 export default function Searchbar() {
-  const [keyword, setKeyword] = useState("");
+  const [text, setText] = useState("");
   const navigate = useNavigate();
+  const { keyword } = useParams();
   const handleChange = (e) => {
-    setKeyword(e.target.value);
+    setText(e.target.value);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate(`/videos/${keyword}`);
-    setKeyword("");
+    navigate(`/videos/${text}`);
+    setText("");
   };
+
+  useEffect(() => setText(keyword || ""), [keyword]);
   return (
     <form
       onSubmit={handleSubmit}
@@ -21,13 +24,13 @@ export default function Searchbar() {
       <input
         className="h-9 min-w-[700px] px-4 text-white bg-black focus:outline-none rounded-bl-3xl rounded-tl-3xl"
         type="text"
-        value={keyword}
+        value={text}
         onChange={handleChange}
         placeholder="Search..."
       />
       <BsSearch
         onClick={handleSubmit}
-        className=" bg-[#535259] text-3xl h-9 w-10 text-white p-2 rounded-br-3xl rounded-tr-3xl "
+        className=" bg-[#535259]  hover:cursor-pointer ext-3xl h-9 w-10 text-white p-2 rounded-br-3xl rounded-tr-3xl "
       />
     </form>
   );
