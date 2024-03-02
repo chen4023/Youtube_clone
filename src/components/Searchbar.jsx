@@ -23,7 +23,7 @@ export default function Searchbar() {
         type="text"
         value={keyword}
         onChange={handleChange}
-        placeholder="Search for..."
+        placeholder="Search..."
       />
       <BsSearch
         onClick={handleSubmit}
