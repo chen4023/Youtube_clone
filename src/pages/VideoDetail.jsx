@@ -35,7 +35,7 @@ export default function VideoDetail() {
             className="player"
             url={`https://www.youtube.com/embed/${videoId}`}
             width="100%"
-            height="60%"
+            height="40%"
             style={{ objectFit: "cover" }}
             controls={true}
           />

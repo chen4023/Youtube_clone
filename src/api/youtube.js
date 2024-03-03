@@ -15,7 +15,7 @@ export default class Youtube {
     return this.httpClient
       .get("search", {
         params: {
-          part: "snippet",
+          part: "snippet,contentDetails,statistics",
           maxResults: 25,
           type: "video",
           regionCode: "KR",
@@ -30,7 +30,7 @@ export default class Youtube {
     return this.httpClient
       .get("videos", {
         params: {
-          part: "snippet",
+          part: "snippet,contentDetails,statistics",
           maxResults: 25,
           regionCode: "KR",
           chart: "mostPopular",

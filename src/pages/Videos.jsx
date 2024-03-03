@@ -21,7 +21,7 @@ export default function Videos() {
   console.log(videos);
   if (error) return <NotFound />;
   return (
-    <ul className="w-full flex flex-wrap justify-center bg-[#0F0F0F]">
+    <ul className="w-full flex flex-wrap justify-center items-baseline bg-[#0F0F0F]">
       {isLoading && <div>Loading...</div>}
       {error && <NotFound />}
       {videos &&
