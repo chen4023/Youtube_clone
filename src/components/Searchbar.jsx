@@ -22,7 +22,7 @@ export default function Searchbar() {
       className="flex flex-auto justify-center items-center md:px-0 "
     >
       <input
-        className="h-9 min-w-[700px] px-4 text-white bg-black focus:outline-none rounded-bl-3xl rounded-tl-3xl"
+        className="h-9 w-7/12 px-4 text-white bg-black focus:outline-none rounded-bl-3xl rounded-tl-3xl"
         type="text"
         value={text}
         onChange={handleChange}
