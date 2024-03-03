@@ -1,0 +1,116 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "cwcK3NcIgqU7VT56MbAIYuSz4tU",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "2hAnYhtSgfxoPYEbXFC1BuIdXjc",
+      "id": "fduEwKC0OKw",
+      "snippet": {
+        "publishedAt": "2024-03-02T03:00:24Z",
+        "channelId": "UCee1MvXr6E8qC_d2WEYTU5g",
+        "title": "강형욱 만나고 고장난 못생긴 노을이 [주니어교육]",
+        "description": "🐕견생 10개월, 노을이와 함께했습니다\n\n📝교육 내용\n1. 먹이를 이용한 친해지기 & 터치\n친하지 않을 때는 땅에 먹이를 떨어뜨려 주시고 점점 친해지면서 손으로 줍니다\n손으로 주면서 턱부터 서서히 터치하는 연습을 해요\n*포인트 [ 머리 위로 손을 올리면 놀랄 수도 있으니 주의합니다 ]\n\n2. 이동식 가방과 친해지기\n처음에 이동식 가방은 방석처럼 가만히 놔두고 먹이를 이용해서 강아지가 천천히 관심을 갖게 해주고\n강아지가 들어가기 시작하면 며칠 동안 잠도 자고 밥도 먹게 하면서 익숙해지도록 해줘요\n이동식 가방에 익숙해지면 조금씩 움직여주면서 훈련합니다\n*포인트 [ 겁이 많은 강아지는 먼저 내피에 올라가는 연습부터 하면 좋아요 ]\n\n3. 목줄과 친해지기\n목줄을 바닥에 놓고 목줄 주변에 먹이를 주며 강아지가 목줄에 관심을 갖게 해줘요\n바닥에 있는 목줄이 익숙해지면 손에 올려서 훈련해요\n목줄을 채울 때는 밑에서 위로 채워줍니다\n*포인트 [ 버클 소리는 최대한 나지 않도록 해주세요 ]\n\n3. 가슴줄 채우기\n가슴줄에 겁이 많은 강아지는 가슴줄 사이즈를 넉넉하게 하면 좋아요\n목줄을 미리 채우고 강아지가 도망가지 않도록 잡아주면서 훈련해요\n*포인트 [ 강아지가 싫어해도 염려하지 마세요. 강아지도 참고 배워야 하는 교육이 있어요 ]\n\n(자막을 키시면 한국어 자막이 있습니다!)\n\n또 봐요👋\n\n00:00 하이라이트\n00:11 오프닝\n00:38 못생기지 않은 노을이의 성격은?\n01:55 먹이를 이용한 친해지기 & 터치\n03:23 이동식 가방과 친해지기 (1/3단계)\n05:24 이동식 가방과 친해지기 (2/3단계)\n06:44 이동식 가방과 친해지기 (3/3단계)\n07:54 겁 많은 강아지 목줄과 친해지기 (기초)\n09:16 겁 많은 강아지 목줄과 친해지기 (심화)\n10:51 겁 많은 강아지 가슴줄 채우기\n13:49 보호자고민, 내 강아지의 견종은?\n15:15 엔딩\n\n🐶강아지 키우기 어려우신가요!?\n앞으로 저희 채널과 함께 키워봅시다!\n\n👀 [퍼피교육] 출연 모집처\n👉 https://forms.gle/YcmWoCruDkgPAyh4A\n\n📚 보듬교육 : https://www.bodeum.co.kr/\n🎁 보듬숍 : https://ppz.kr\n✨ 인스타그램 : / hunter.kang   \n🐾 비즈니스 문의 : bodeum@episodegroup.kr \n\n영상 내 번역 자막은 유튜브 번역 No.1, 자메이크에서 제작하였습니다. \n유튜브 채널 성장의 시작은 자메이크(https://bit.ly/Bodeumofficial)\n\n#강형욱 #강아지 #못생긴노을이 #주니어 #믹스견 \nCopyright ⓒ 2024 Studio Episode - All Rights Reserved",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fduEwKC0OKw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fduEwKC0OKw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fduEwKC0OKw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fduEwKC0OKw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fduEwKC0OKw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "강형욱의 보듬TV",
+        "tags": [
+          "강형욱",
+          "강형욱훈련사",
+          "보듬",
+          "보듬컴퍼니",
+          "BODEUM",
+          "강아지",
+          "반려견",
+          "Dog",
+          "puppy",
+          "いぬ",
+          "子犬",
+          "小犬",
+          "こいぬ",
+          "교육",
+          "훈련",
+          "세나개",
+          "discipline",
+          "training",
+          "訓練",
+          "教育",
+          "반려동물",
+          "dogyoutube",
+          "강아지유튜브",
+          "doggy",
+          "ボドゥム",
+          "カン・ヒョンウク",
+          "hunterkang",
+          "Koreandogtrainer",
+          "개훌륭",
+          "개는훌륭하다",
+          "강아지강씨",
+          "Dogs Are Incredible",
+          "KBS",
+          "Kang Hyong Wook",
+          "반려견행동전문가",
+          "훈련사",
+          "trainer",
+          "handler",
+          "Trained attendant",
+          "doggy guru",
+          "guru",
+          "dog whisperer"
+        ],
+        "categoryId": "15",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "강형욱 만나고 고장난 못생긴 노을이 [주니어교육]",
+          "description": "🐕견생 10개월, 노을이와 함께했습니다\n\n📝교육 내용\n1. 먹이를 이용한 친해지기 & 터치\n친하지 않을 때는 땅에 먹이를 떨어뜨려 주시고 점점 친해지면서 손으로 줍니다\n손으로 주면서 턱부터 서서히 터치하는 연습을 해요\n*포인트 [ 머리 위로 손을 올리면 놀랄 수도 있으니 주의합니다 ]\n\n2. 이동식 가방과 친해지기\n처음에 이동식 가방은 방석처럼 가만히 놔두고 먹이를 이용해서 강아지가 천천히 관심을 갖게 해주고\n강아지가 들어가기 시작하면 며칠 동안 잠도 자고 밥도 먹게 하면서 익숙해지도록 해줘요\n이동식 가방에 익숙해지면 조금씩 움직여주면서 훈련합니다\n*포인트 [ 겁이 많은 강아지는 먼저 내피에 올라가는 연습부터 하면 좋아요 ]\n\n3. 목줄과 친해지기\n목줄을 바닥에 놓고 목줄 주변에 먹이를 주며 강아지가 목줄에 관심을 갖게 해줘요\n바닥에 있는 목줄이 익숙해지면 손에 올려서 훈련해요\n목줄을 채울 때는 밑에서 위로 채워줍니다\n*포인트 [ 버클 소리는 최대한 나지 않도록 해주세요 ]\n\n3. 가슴줄 채우기\n가슴줄에 겁이 많은 강아지는 가슴줄 사이즈를 넉넉하게 하면 좋아요\n목줄을 미리 채우고 강아지가 도망가지 않도록 잡아주면서 훈련해요\n*포인트 [ 강아지가 싫어해도 염려하지 마세요. 강아지도 참고 배워야 하는 교육이 있어요 ]\n\n(자막을 키시면 한국어 자막이 있습니다!)\n\n또 봐요👋\n\n00:00 하이라이트\n00:11 오프닝\n00:38 못생기지 않은 노을이의 성격은?\n01:55 먹이를 이용한 친해지기 & 터치\n03:23 이동식 가방과 친해지기 (1/3단계)\n05:24 이동식 가방과 친해지기 (2/3단계)\n06:44 이동식 가방과 친해지기 (3/3단계)\n07:54 겁 많은 강아지 목줄과 친해지기 (기초)\n09:16 겁 많은 강아지 목줄과 친해지기 (심화)\n10:51 겁 많은 강아지 가슴줄 채우기\n13:49 보호자고민, 내 강아지의 견종은?\n15:15 엔딩\n\n🐶강아지 키우기 어려우신가요!?\n앞으로 저희 채널과 함께 키워봅시다!\n\n👀 [퍼피교육] 출연 모집처\n👉 https://forms.gle/YcmWoCruDkgPAyh4A\n\n📚 보듬교육 : https://www.bodeum.co.kr/\n🎁 보듬숍 : https://ppz.kr\n✨ 인스타그램 : / hunter.kang   \n🐾 비즈니스 문의 : bodeum@episodegroup.kr \n\n영상 내 번역 자막은 유튜브 번역 No.1, 자메이크에서 제작하였습니다. \n유튜브 채널 성장의 시작은 자메이크(https://bit.ly/Bodeumofficial)\n\n#강형욱 #강아지 #못생긴노을이 #주니어 #믹스견 \nCopyright ⓒ 2024 Studio Episode - All Rights Reserved"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT16M6S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "793704",
+        "likeCount": "24487",
+        "favoriteCount": "0",
+        "commentCount": "1398"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -21,11 +21,11 @@ export default function Videos() {
   console.log(videos);
   if (error) return <NotFound />;
   return (
-    <div className="w-full flex flex-wrap justify-center bg-[#18181A]">
+    <ul className="w-full flex flex-wrap justify-center bg-[#0F0F0F]">
       {isLoading && <div>Loading...</div>}
       {error && <NotFound />}
       {videos &&
         videos.map((video, index) => <Card key={index} video={video} />)}
-    </div>
+    </ul>
   );
 }

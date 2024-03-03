@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   height: 100vh;
-  @apply flex flex-col items-center bg-[#18181A];
+  @apply flex flex-col items-center bg-[#0F0F0F];
 }
 
 #root {
