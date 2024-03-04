@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{jsx,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        trade: ["Trade"],
+        robote: ["Robote"],
+      },
       colors: {
         brand: "#FF0000",
       },

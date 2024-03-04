@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { format } from "date-fns";
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { useDetailVideo } from "../context/DetailVideoContext";
 import NotFound from "./NotFound";
 import ReactPlayer from "react-player";
+import VideoDescription from "../util/data";
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -24,19 +25,20 @@ export default function VideoDetail() {
   });
   console.log(videoId);
   console.log(details);
-  // const { title, description } = details.snippet.localized;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {isLoading && <div className="text-2xl text-white">Loading...</div>}
       {error && <NotFound />}
       {details && (
-        <div className="w-8/12 h-[100vh] m-8 bg-[#0F0F0F]">
+        <div className="w-8/12 h-[100vh] m-8 bg-[#0F0F0F] ">
           <ReactPlayer
-            className="player"
             url={`https://www.youtube.com/embed/${videoId}`}
             width="100%"
-            height="40%"
-            style={{ objectFit: "cover" }}
+            height="50%"
             controls={true}
           />
           <div className="text-white text-2xl font-bold pt-5 pb-2">
@@ -51,13 +53,17 @@ export default function VideoDetail() {
                 | 최초공개 {""}
                 {format(details.snippet.publishedAt, "yyyy.MM.dd")}
               </span>
-              <p className="text-[#3EA6FF] ">
+              <p className="text-[#3EA6FF] pt-2">
                 {details.snippet.tags.map((tag) => (
                   <span>#{tag}</span>
                 ))}
               </p>
             </div>
-            <p>{details.snippet.localized.description}</p>
+            <p>
+              <VideoDescription
+                description={details.snippet.localized.description}
+              />
+            </p>
           </div>
         </div>
       )}

@@ -16,7 +16,7 @@ export default class Detail {
     return this.httpClient
       .get("videos", {
         params: {
-          part: "snippet,contentDetails,statistics,player",
+          part: "snippet,contentDetails,statistics",
           id: id,
         },
       })
