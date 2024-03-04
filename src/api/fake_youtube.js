@@ -15,4 +15,10 @@ export default class FakeYoutube {
   async #mostPopular() {
     return axios.get(`/videos/popular.json`).then((res) => res.data.items);
   }
+
+  async channels() {
+    return axios
+      .get(`/videos/channel.json`)
+      .then((res) => res.data.items[0].snippet.default.url);
+  }
 }
