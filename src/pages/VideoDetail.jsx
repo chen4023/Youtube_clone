@@ -38,8 +38,8 @@ export default function VideoDetail() {
       {isLoading && <div className="text-2xl text-white">Loading...</div>}
       {error && <NotFound />}
       {details && (
-        <section className="flex flex-col justify-center xl:flex-row bg-[#0F0F0F] m-9">
-          <article className="basis-6/8">
+        <section className="flex flex-col xl:flex-row bg-[#0F0F0F] m-9">
+          <article className="flex-1">
             <iframe
               title="player"
               type="text/html"
@@ -81,7 +81,7 @@ export default function VideoDetail() {
               </p>
             </div>
           </article>
-          <section className="basis-2/8 pl-4">
+          <section className="w-2/7 pl-4">
             <RelatedVideos id={details.snippet.channelId} />
           </section>
         </section>
