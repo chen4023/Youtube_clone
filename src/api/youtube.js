@@ -21,7 +21,7 @@ export default class Youtube {
     return this.httpClient
       .get("search", {
         params: {
-          part: "snippet,contentDetails,statistics",
+          part: "snippet",
           maxResults: 25,
           type: "video",
           regionCode: "KR",
