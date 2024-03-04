@@ -17,6 +17,18 @@ export default class Youtube {
       .then((res) => res.data.items[0].snippet.thumbnails.default.url);
   }
 
+  async relatedVideos(id) {
+    return this.httpClient
+      .get("playlists", {
+        params: {
+          part: "snippet,contentDetails",
+          maxResults: 10,
+          channelId: id,
+        },
+      })
+      .then((res) => res.data.items);
+  }
+
   async #searchByKeyword(keyword) {
     return this.httpClient
       .get("search", {

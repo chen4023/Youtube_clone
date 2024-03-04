@@ -7,6 +7,7 @@ import { useDetailVideo } from "../context/DetailVideoContext";
 import NotFound from "./NotFound";
 import VideoDescription from "../util/data";
 import ChannelInfo from "../components/ChannelInfo";
+import RelatedVideos from "../components/RelatedVideos";
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -33,18 +34,18 @@ export default function VideoDetail() {
   // const { publishedAt, title, categoryId, tags, description, channelTitle } =
   //   details.snippet;
   return (
-    <>
+    <div className="">
       {isLoading && <div className="text-2xl text-white">Loading...</div>}
       {error && <NotFound />}
       {details && (
-        <section className="w-full h-full bg-[#0F0F0F] p-9">
-          <article className="h-[100vh]">
+        <section className="flex flex-col justify-center xl:flex-row bg-[#0F0F0F] m-9">
+          <article className="basis-6/8">
             <iframe
               title="player"
               type="text/html"
               src={`http://www.youtube.com/embed/${videoId}`}
               width="100%"
-              height="60%"
+              height="640px"
               style={{
                 borderRadius: "20px",
                 objectFit: "cover",
@@ -67,9 +68,12 @@ export default function VideoDetail() {
                   {format(details.snippet.publishedAt, "yyyy.MM.dd")}
                 </span>
                 <p className="text-[#3EA6FF] pt-2">
-                  {details.snippet.tags.map((tag, index) => (
-                    <span key={index}>#{tag}</span>
-                  ))}
+                  {details &&
+                    details.snippet &&
+                    details.snippet.tags &&
+                    details.snippet.tags.map((tag, index) => (
+                      <span key={index}>#{tag}</span>
+                    ))}
                 </p>
               </div>
               <p>
@@ -77,8 +81,11 @@ export default function VideoDetail() {
               </p>
             </div>
           </article>
+          <section className="basis-2/8 pl-4">
+            <RelatedVideos id={details.snippet.channelId} />
+          </section>
         </section>
       )}
-    </>
+    </div>
   );
 }
