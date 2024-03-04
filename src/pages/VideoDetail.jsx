@@ -50,7 +50,7 @@ export default function VideoDetail() {
                 objectFit: "cover",
               }}
             />
-            <h2 className="text-white text-2xl font-bold pt-5 pb-2">
+            <h2 className="text-white text-[22px] font-bold pt-5 pb-2">
               {details.snippet.title}
             </h2>
             <ChannelInfo

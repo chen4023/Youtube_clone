@@ -25,11 +25,14 @@ export default function Card({ video }) {
         <p className="font-semibold text-[16px] text-[#AAAAAA] ">
           {channelTitle}
         </p>
+        {video.statistics && (
+          <span className="text-[15px] mr-1 font-semibold text-[#AAAAAA]">
+            조회수 {showNum(video.statistics.viewCount)}만회
+          </span>
+        )}
         <span className="text-[15px] font-semibold text-[#AAAAAA]">
-          조회수 {showNum(video.statistics.viewCount)}만회
-        </span>
-        <span className=" pl-1 text-[15px] font-semibold text-[#AAAAAA]">
-          • {formatAgo(publishedAt, "ko")}
+          {video.statistics && "•"} {formatAgo(publishedAt, "ko")}{" "}
+          {!video.statistics && "업로드"}
         </span>{" "}
       </Link>
     </li>

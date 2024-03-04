@@ -10,17 +10,17 @@ export default function ChannelInfo({ id, title }) {
   });
   console.log(url);
   return (
-    <div className="text-white my-4 flex items-center">
+    <div className="text-white mb-3 flex items-center">
       {url && (
-        <img className=" rounded-full w-[55px] mr-4" src={url} alt={title} />
+        <img className=" rounded-full w-[45px] mr-4" src={url} alt={title} />
       )}
       <div>
-        <p className=" text-lg font-bold">{title}</p>
+        <p className="text-lg font-bold">{title}</p>
         <p className="text-[#AAAAAA] text-base">구독자 47.3만명</p>
       </div>
       <button
         onClick={() => alert("구독 완료 ✅")}
-        className="ml-8 bg-[#F1F1F1] font-semibold text-[#0F0F0F] w-[70px] h-[45px] rounded-3xl text-[18px]"
+        className="ml-8 bg-[#F1F1F1] font-medium text-[#0F0F0F] w-[60px] h-[40px] rounded-3xl "
       >
         구독
       </button>
