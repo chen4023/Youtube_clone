@@ -14,8 +14,8 @@ export default function Card({ video }) {
   };
 
   return (
-    <li className="flex flex-col justify-center mx-[20px] my-[40px] w-[355px] h-65 text-white hover:cursor-pointer">
-      <Link to={`videos/watch/${video.id}`}>
+    <li className="flex justify-center px-[20px] py-3 w-[355px] h-65 text-white hover:cursor-pointer">
+      <Link to={`/videos/watch/${video.id}`}>
         <img
           className="w-full h-[200px] object-cover rounded-lg hover:rounded-none mb-4"
           src={thumbnails.medium.url}
