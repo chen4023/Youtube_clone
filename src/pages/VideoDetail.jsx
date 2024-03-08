@@ -45,7 +45,7 @@ export default function VideoDetail() {
               type="text/html"
               src={`http://www.youtube.com/embed/${videoId}`}
               width="100%"
-              height="640px"
+              height="640"
               style={{
                 borderRadius: "20px",
                 objectFit: "cover",
