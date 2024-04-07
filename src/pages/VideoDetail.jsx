@@ -32,7 +32,7 @@ export default function VideoDetail() {
   // const { publishedAt, title, categoryId, tags, description, channelTitle } =
   //   details.snippet;
   return (
-    <div className="">
+    <div className="max-w-screen-2xl m-auto">
       {isLoading && <div className="text-2xl text-white">Loading...</div>}
       {error && <NotFound />}
       {details && (
