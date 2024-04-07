@@ -8,7 +8,6 @@ export default function ChannelInfo({ id, title }) {
     queryKey: ["channel", id],
     queryFn: () => youtube.channelImgURL(id),
   });
-  console.log(url);
   return (
     <div className="text-white mb-3 flex items-center">
       {url && (

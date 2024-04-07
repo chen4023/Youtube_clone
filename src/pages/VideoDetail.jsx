@@ -24,8 +24,6 @@ export default function VideoDetail() {
     queryKey: ["details"],
     queryFn: () => detail.detailvideo(videoId),
   });
-  console.log(videoId);
-  console.log(details);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -76,9 +74,9 @@ export default function VideoDetail() {
                     ))}
                 </p>
               </div>
-              <p>
+              <div>
                 <VideoDescription description={details.snippet.description} />
-              </p>
+              </div>
             </div>
           </article>
           <section className="w-2/7 pl-4">

@@ -9,7 +9,6 @@ import { useYoutubeApi } from "../context/YoutubeApiContext";
 export default function Videos() {
   const { keyword } = useParams();
   const { youtube } = useYoutubeApi();
-  console.log(keyword);
   const {
     isLoading,
     error,
@@ -18,7 +17,6 @@ export default function Videos() {
     queryKey: ["videos", keyword],
     queryFn: () => youtube.search(keyword),
   });
-  console.log(videos);
   if (error) return <NotFound />;
   return (
     <ul className="w-full flex flex-wrap justify-center items-baseline bg-[#0F0F0F]">
